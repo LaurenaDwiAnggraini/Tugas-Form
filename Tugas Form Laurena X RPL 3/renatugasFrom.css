@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;/*agar teks nya terlihat bagus*/
+    background-color: rgb(112, 216, 216); /*untuk memberi warna pada background*/
+    margin: 0;
+    padding: 0;
+    background-image:url(Gambar/Margo.jpg) ; /*untuk menambahkan foto pada background*/
+    background-position: center; /*untuk mengatur posisi foto background*/
+    background-size: 330px; /*untuk mengatur besar kecilnya foto background*/
+}
+
+.container{
+    max-width: 400px; /*menentukan lebar maksimum*/
+    margin: 50px;
+    background-color: #ffffff00;
+    padding: 20px; /*memberi ruang pada elemen*/
+    border-radius: 5px; /*untuk mengubah bentuk sudut*/
+    box-shadow: 0 2px 5px black; /*untuk memberi dimensi atau bayangan*/
+    margin: auto; /*memberi jarak teks pada dokumen*/
+    margin-top: 45px; /*memberi jarak antar kertas ke ke keras lain*/
+}
+
+h2{
+    text-align: center; /*untuk mengatur posisi teks yang akan muncul*/
+    margin-bottom: 20px; /*mengatur jarak dibagian bawah*/
+    color: #fff;
+    text-shadow: 0 2px 5px black;
+}
+
+form{
+    display: flex; /*mengatur tampilan elemen*/
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input,
+textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc; /*untuk memberi garis pada elemen*/
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff; /*untuk memberi warna pada elemen yang akan di beri warna*/
+    border: none;
+    cursor: pointer; /*untuk menampilkan elemen*/
+}
+
+button:hover{
+    background-color: #0056b3;
+}
